@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 16:56:22</sys_created_on>
+        <sys_id>e2e39faac39466106314d7ec05013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1425035_ai_works_device_request.x_1425035_ai_works.dispatch_management</sys_name>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_security_acl display_value="x_1425035_ai_works_device_request">26e39faac39466106314d7ec05013145</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e2e39faac39466106314d7ec05013148</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 16:56:22</sys_updated_on>
+        <sys_user_role display_value="x_1425035_ai_works.dispatch_management" name="x_1425035_ai_works.dispatch_management">e3e25ba6c39466106314d7ec0501314b</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

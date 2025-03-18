@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Device Request" language="en" table="x_1425035_ai_works_device_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Device Request</label>
+            <language>en</language>
+            <name>x_1425035_ai_works_device_request</name>
+            <plural>Device Requests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-18 16:56:20</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Device Request</sys_name>
+            <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+            <sys_update_name>sys_documentation_x_1425035_ai_works_device_request__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-18 16:56:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
