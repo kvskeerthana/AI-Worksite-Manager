@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="71e35faac39466106314d7ec0501310f" extends="task" label="Device Request" max_length="40" name="x_1425035_ai_works_device_request" type="collection"/>
+    <element db_object_id="71e35faac39466106314d7ec0501310f" extends="task" label="Device Request" max_length="40" name="x_1425035_ai_works_device_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="device_name" reference="x_1425035_ai_works_ai_devices" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="model" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="encode_utf8=false" label="Requester Name" mandatory="true" max_length="32" name="requeste_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Warrenty Expiration" max_length="40" name="u_glide_date_8" read_only="true" type="glide_date"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_7" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="3000" name="u_string_6" read_only="true" type="string"/>
+    </element>
 </database>
