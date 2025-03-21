@@ -5,6 +5,8 @@
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="model" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requester Name" mandatory="true" max_length="32" name="requeste_name" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Total Cost" max_length="32" name="total_cost" read_only="true" type="currency2"/>
+        <element attributes="omit_sys_original=true" label="Total cost" max_length="20" name="u_currency_2" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Warrenty Expiration" max_length="40" name="u_glide_date_8" read_only="true" type="glide_date"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_7" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">

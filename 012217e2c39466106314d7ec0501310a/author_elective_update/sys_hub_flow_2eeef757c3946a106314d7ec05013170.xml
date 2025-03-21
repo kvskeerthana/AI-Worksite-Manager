@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>order_ai_devices_fow</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Order Ai Devices Fow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 03:59:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2eeef757c3946a106314d7ec05013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Ai Devices Fow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_update_name>sys_hub_flow_2eeef757c3946a106314d7ec05013170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 03:59:41</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=2eeef757c3946a106314d7ec05013170"/>
+    <sys_variable_value action="DELETE" query="document_key=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=2eeef757c3946a106314d7ec05013170"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=2eeef757c3946a106314d7ec05013170^sys_idNOT INa2eef757c3946a106314d7ec05013174"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>2eeef757c3946a106314d7ec05013170</id>
+        <name>Order Ai Devices Fow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 03:59:41</sys_created_on>
+        <sys_id>a2eef757c3946a106314d7ec05013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 03:59:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=a2eef757c3946a106314d7ec05013174"/>
+    <sys_hub_flow_input action="DELETE" query="model=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_flow_output action="DELETE" query="model=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2eeef757c3946a106314d7ec05013170"/>
+    <sys_hub_flow_variable action="DELETE" query="model=2eeef757c3946a106314d7ec05013170"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_2eeef757c3946a106314d7ec05013170"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_2eeef757c3946a106314d7ec05013170"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=2eeef757c3946a106314d7ec05013170"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=2eeef757c3946a106314d7ec05013170"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</application>
+        <file_path/>
+        <instance_id>e5a23d4e2b339e18e83bf9f66e91bf47</instance_id>
+        <instance_name>dev297274</instance_name>
+        <name>sys_hub_flow_2eeef757c3946a106314d7ec05013170</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>27000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><display_name_after_preview/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>order_ai_devices_fow</internal_name><label_cache>null</label_cache><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Order Ai Devices Fow</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 03:59:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2eeef757c3946a106314d7ec05013170</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Ai Devices Fow</sys_name><sys_overrides/><sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package><sys_policy/><sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope><sys_update_name>sys_hub_flow_2eeef757c3946a106314d7ec05013170</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 03:59:41</sys_updated_on><type>flow</type><version>2</version></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=2eeef757c3946a106314d7ec05013170"/><sys_variable_value action="delete_multiple" query="document_key=2eeef757c3946a106314d7ec05013170"/><sys_hub_flow_stage action="delete_multiple" query="flow=2eeef757c3946a106314d7ec05013170"/><sys_flow_cat_variable_model action="delete_multiple" query="id=2eeef757c3946a106314d7ec05013170^sys_idNOT INa2eef757c3946a106314d7ec05013174"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>2eeef757c3946a106314d7ec05013170</id><name>Order Ai Devices Fow</name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 03:59:41</sys_created_on><sys_id>a2eef757c3946a106314d7ec05013174</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 03:59:41</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a2eef757c3946a106314d7ec05013174"/><sys_hub_flow_input action="delete_multiple" query="model=2eeef757c3946a106314d7ec05013170"/><sys_hub_flow_output action="delete_multiple" query="model=2eeef757c3946a106314d7ec05013170"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=2eeef757c3946a106314d7ec05013170"/><sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2eeef757c3946a106314d7ec05013170"/><sys_hub_action_instance_v2 action="delete_multiple" query="flow=2eeef757c3946a106314d7ec05013170"/><sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2eeef757c3946a106314d7ec05013170"/><sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2eeef757c3946a106314d7ec05013170"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=2eeef757c3946a106314d7ec05013170"/><sys_hub_flow_variable action="delete_multiple" query="model=2eeef757c3946a106314d7ec05013170"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2eeef757c3946a106314d7ec05013170"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2eeef757c3946a106314d7ec05013170"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=2eeef757c3946a106314d7ec05013170"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=2eeef757c3946a106314d7ec05013170"/></record_update>]]></payload>
+        <payload_hash>1455525949</payload_hash>
+        <record_name>Order Ai Devices Fow</record_name>
+        <reverted_from/>
+        <source>0c416f2ac3d466106314d7ec050131af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 03:59:41</sys_created_on>
+        <sys_id>eeee7bd7c3946a106314d7ec0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b6db50d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 03:59:41</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>e2ee7bd798946a105e502eec03bc7b7b</update_guid>
+        <update_guid_history>e2ee7bd798946a105e502eec03bc7b7b:1455525949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 04:03:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>46a7c3e55e074e708426c3839093a990</sys_id>
+        <sys_metadata>2eeef757c3946a106314d7ec05013170</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Ai Devices Fow</sys_name>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_scope_delete display_value="">28d4b645c56d40f48dc452feb4c167e4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_2eeef757c3946a106314d7ec05013170</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_2eeef757c3946a106314d7ec05013170">eeee7bd7c3946a106314d7ec0501317b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 04:03:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
