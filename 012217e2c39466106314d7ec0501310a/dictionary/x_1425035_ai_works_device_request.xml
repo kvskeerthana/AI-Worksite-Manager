@@ -4,6 +4,7 @@
         <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="device_name" reference="x_1425035_ai_works_ai_devices" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="model" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Reminder for Pickup" max_length="40" name="remainder_for_pickup" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Requester Name" mandatory="true" max_length="32" name="requeste_name" reference="sys_user" type="reference"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Total Cost" max_length="32" name="total_cost" read_only="true" type="currency2"/>
         <element attributes="omit_sys_original=true" label="Total cost" max_length="20" name="u_currency_2" read_only="true" type="currency"/>
@@ -13,6 +14,8 @@
             <choice>
                 <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
+                <element inactive_on_update="false" label="Delivery Failed" sequence="2" value="delivery failed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="in progress"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="3000" name="u_string_6" read_only="true" type="string"/>
