@@ -13,6 +13,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
+                <element inactive_on_update="false" label="State" sequence="0" value="State"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
                 <element inactive_on_update="false" label="Delivery Failed" sequence="2" value="delivery failed"/>
                 <element inactive_on_update="false" label="In Progress" sequence="3" value="in progress"/>
