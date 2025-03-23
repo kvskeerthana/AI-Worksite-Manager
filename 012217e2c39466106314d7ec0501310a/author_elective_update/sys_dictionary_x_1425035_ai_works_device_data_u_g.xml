@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_g" table="x_1425035_ai_works_device_data">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=G</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>G</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_g</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1425035_ai_works_device_data</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 09:12:56</sys_created_on>
+        <sys_id>9f960d2bc31c6a106314d7ec0501313a</sys_id>
+        <sys_name>G</sys_name>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_update_name>sys_dictionary_x_1425035_ai_works_device_data_u_g</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 09:12:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</application>
+        <file_path/>
+        <instance_id>e5a23d4e2b339e18e83bf9f66e91bf47</instance_id>
+        <instance_name>dev297274</instance_name>
+        <name>sys_dictionary_x_1425035_ai_works_device_data_u_g</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_g" table="x_1425035_ai_works_device_data"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=G</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>G</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_g</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1425035_ai_works_device_data</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 09:12:56</sys_created_on><sys_id>9f960d2bc31c6a106314d7ec0501313a</sys_id><sys_name>G</sys_name><sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package><sys_policy/><sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope><sys_update_name>sys_dictionary_x_1425035_ai_works_device_data_u_g</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 09:12:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1066224099</payload_hash>
+        <record_name>device data.G</record_name>
+        <reverted_from/>
+        <source>0c416f2ac3d466106314d7ec050131af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 09:12:57</sys_created_on>
+        <sys_id>13960d2bc31c6a106314d7ec05013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b7fa1f210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 09:12:57</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>57960d2bea1c6a10f0146d4150824e72</update_guid>
+        <update_guid_history>57960d2bea1c6a10f0146d4150824e72:-1066224099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-23 15:07:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0b8ee575933c4418a5e38c0505482e10</sys_id>
+        <sys_metadata>9f960d2bc31c6a106314d7ec0501313a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>G</sys_name>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_parent display_value="">8b960d2bc31c6a106314d7ec0501311e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_scope_delete display_value="">28d4b645c56d40f48dc452feb4c167e4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1425035_ai_works_device_data_u_g</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1425035_ai_works_device_data_u_g">13960d2bc31c6a106314d7ec05013173</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-23 15:07:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

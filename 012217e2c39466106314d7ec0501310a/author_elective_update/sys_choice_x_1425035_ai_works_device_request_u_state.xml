@@ -39,25 +39,6 @@
             <element>u_state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>State</label>
-            <language>en</language>
-            <name>x_1425035_ai_works_device_request</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-21 09:24:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-21 09:24:58</sys_updated_on>
-            <value>State</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_state</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Cancelled</label>
             <language>en</language>
             <name>x_1425035_ai_works_device_request</name>

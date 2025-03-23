@@ -10,10 +10,9 @@
         <element attributes="omit_sys_original=true" label="Total cost" max_length="20" name="u_currency_2" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Warrenty Expiration" max_length="40" name="u_glide_date_8" read_only="true" type="glide_date"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_7" read_only="true" type="price"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="in progress" label="State" max_length="40" name="u_state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
-                <element inactive_on_update="false" label="State" sequence="0" value="State"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
                 <element inactive_on_update="false" label="Delivery Failed" sequence="2" value="delivery failed"/>
                 <element inactive_on_update="false" label="In Progress" sequence="3" value="in progress"/>
