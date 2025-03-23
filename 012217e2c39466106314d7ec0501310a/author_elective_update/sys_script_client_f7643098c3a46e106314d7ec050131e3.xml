@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Automate delivery date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var now = new GlideDateTime();
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if(newValue=='delivered')
+   {
+	g_form.setValue('delivery_date',now);
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-23 15:56:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7643098c3a46e106314d7ec050131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automate delivery date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_update_name>sys_script_client_f7643098c3a46e106314d7ec050131e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-23 15:56:26</sys_updated_on>
+        <table>x_1425035_ai_works_device_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</application>
+        <file_path/>
+        <instance_id>e5a23d4e2b339e18e83bf9f66e91bf47</instance_id>
+        <instance_name>dev297274</instance_name>
+        <name>sys_script_client_f7643098c3a46e106314d7ec050131e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Automate delivery date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var now = new GlideDateTime();
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if(newValue=='delivered')
+   {
+	g_form.setValue('delivery_date',now);
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-23 15:56:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f7643098c3a46e106314d7ec050131e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Automate delivery date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works"&gt;012217e2c39466106314d7ec0501310a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AI Worksite Manager"&gt;012217e2c39466106314d7ec0501310a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f7643098c3a46e106314d7ec050131e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-23 15:56:26&lt;/sys_updated_on&gt;&lt;table&gt;x_1425035_ai_works_device_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1689221510</payload_hash>
+        <record_name>Automate delivery date</record_name>
+        <reverted_from/>
+        <source>0c416f2ac3d466106314d7ec050131af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-23 15:56:26</sys_created_on>
+        <sys_id>d526b858c3a46e106314d7ec05013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195c3b83c910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-23 15:56:26</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d926b85891a46e10a3a3473a61d2e343</update_guid>
+        <update_guid_history>d926b85891a46e10a3a3473a61d2e343:-1689221510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-23 15:56:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5018f9c5d7e94854a6861f2e02825e81</sys_id>
+        <sys_metadata>f7643098c3a46e106314d7ec050131e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automate delivery date</sys_name>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_parent display_value="Device Request">71e35faac39466106314d7ec0501310f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_scope_delete display_value="">28d4b645c56d40f48dc452feb4c167e4</sys_scope_delete>
+        <sys_update_name>sys_script_client_f7643098c3a46e106314d7ec050131e3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f7643098c3a46e106314d7ec050131e3">d526b858c3a46e106314d7ec05013144</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-23 15:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
