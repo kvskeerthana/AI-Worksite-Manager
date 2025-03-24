@@ -165,5 +165,3 @@ Using **ServiceNow Flow Designer**, an automated workflow for device requests wa
 
 ## **🚀 Conclusion**  
 **AI Worksite Management** is a robust, end-to-end ServiceNow application that streamlines AI device tracking, request management, and operational workflows. It **leverages automation, security, and UI enhancements** to improve efficiency in managing AI-powered devices across worksites.  
-
-Would you like to add deployment details or a demo section for GitHub? 😊
