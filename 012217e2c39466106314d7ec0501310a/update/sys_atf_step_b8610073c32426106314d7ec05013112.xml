@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that the answer match the following condition:
+Total Amount &gt;= 1500</description>
+        <display_name>Validate Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Validate Variable Values (SP)">2c8882759f1303002528d4b4232e708a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 09:06:19</sys_created_on>
+        <sys_id>b8610073c32426106314d7ec05013112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values (SP)</sys_name>
+        <sys_package display_value="AI Worksite Manager" source="x_1425035_ai_works">012217e2c39466106314d7ec0501310a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Worksite Manager">012217e2c39466106314d7ec0501310a</sys_scope>
+        <sys_update_name>sys_atf_step_b8610073c32426106314d7ec05013112</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 09:06:19</sys_updated_on>
+        <table/>
+        <test display_value="Validate order AI Devices">66408cbfc3e026106314d7ec050131eb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b8610073c32426106314d7ec05013112"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8610073c32426106314d7ec05013112</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 09:06:19</sys_created_on>
+        <sys_id>1dc14473c32426106314d7ec0501317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 09:06:19</sys_updated_on>
+        <value>IO:8cad6dd3c3d82a106314d7ec050131ac&gt;=1500^EQ</value>
+        <variable display_value="Catalog Conditions">e0cc42b59f1303002528d4b4232e70f9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8610073c32426106314d7ec05013112</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 09:06:19</sys_created_on>
+        <sys_id>59c14473c32426106314d7ec0501317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 09:06:19</sys_updated_on>
+        <value>bae8dd97c3582a106314d7ec0501314f</value>
+        <variable display_value="Item">9b5b4e759f1303002528d4b4232e7026</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8610073c32426106314d7ec05013112</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 09:06:19</sys_created_on>
+        <sys_id>95c14473c32426106314d7ec0501317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 09:06:19</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">f2fac9d673142300688e0d573cf6a7e0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2c8882759f1303002528d4b4232e708a^id=b8610073c32426106314d7ec05013112"/>
+</record_update>
